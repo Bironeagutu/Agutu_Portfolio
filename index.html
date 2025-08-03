@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Portfolio | Agutu Birone</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#projects" style="color: blue;">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+  <div class="container_1">
+      <header>
+        <div class="container">
+          <nav>
+              <ul>
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
         <section id="hero">
             <article class="intro">
                 <h4>AGUTU</h4>
@@ -25,13 +29,77 @@
                 <p>Web Developer | Designer | Learner</p>
             </article>
         </section>
+
         <section id="about">
-            <h2>About</h2>
-            <p>the abouts are written here</p>
+            <div class="about-image">
+                <img src="images/IMG_20250803_131915(1).jpg" alt="Profile Image">
+            </div>
+            <div class="about_container">
+                <h2>About</h2>
+                <p>I'm a curious and driven aspiring software developer with a solid foundation in HTML, CSS, and Python. I enjoy turning creative ideas into user-friendly, functional web experiences. I’m especially motivated by the potential of technology to solve real-world problems. I'm continuously learning, improving, and building with the goal of creating solutions that make a meaningful impact.</p>
+            </div>
         </section>
+
+        <section id="languages">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>HTML – For structuring web content</li>
+                <li>CSS – For styling and layout design</li>
+                <li>Python – For scripting, problem-solving, and backend development</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <ul>
+                <li><strong>Degree:</strong> Bachelor of Education (Computer Studies)</li>
+                <li><strong>Institution:</strong> XYZ University</li>
+                <li><strong>Year:</strong> 2020 - 2024</li>
+                <li><strong>Relevant Coursework:</strong> Programming, Web Development, Educational Technology</li>
+            </ul>
+            <a href="files/YourCV.pdf" download class="cv-download">Download My CV (PDF)</a>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>I’m deeply excited by the ever-evolving world of technology—especially how it empowers people to build, solve, and connect. I enjoy exploring areas like web development, automation, and user experience design. My professional interests lie in creating clean, functional digital solutions and continuously expanding my skills to stay ahead in the tech space.</p>
+        </section>
+
         <section id="projects">
             <h2>Projects</h2>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/portfolio-site" target="_blank">Personal Portfolio Website</a></h3>
+                <p>A responsive website built with HTML, CSS, and a bit of JavaScript to showcase my skills, resume, and contact info.</p>
+            </article>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/todo-app" target="_blank">To-Do App</a></h3>
+                <p>A simple to-do list app using HTML, CSS, and Python Flask to help users organize and track their daily tasks.</p>
+            </article>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/weather-dashboard" target="_blank">Weather Dashboard</a></h3>
+                <p>An app that fetches live weather data using a public API and displays forecasts for any city input by the user.</p>
+            </article>
         </section>
-    </main>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+      </main>
+  </div>
 </body>
 </html>
