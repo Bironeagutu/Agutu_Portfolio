@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portfolio | Agutu Birone</title>
+</head>
+<body>
+  <div class="container_1">
+      <header>
+        <div class="container">
+          <nav>
+              <ul>
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="hero">
+            <article>
+                <h4>AGUTU</h4>
+                <h2>BIRONE</h2>
+                <p>Web Developer | Designer | Learner</p>
+
+                <div class="social-icons">
+                <!-- <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> -->
+                <a href="https://wa.me/+254759134266" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <!-- <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a> -->
+                <a href="https://www.linkedin.com/in/agutu-birone-ochieng-73789322a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://t.me/+254759134266" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://github.com/Bironeagutu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </article>
+        </section>
+
+
+        <section id="about">
+            <div class="about-image">
+                <img src="images/IMG_20250803_131915(1).jpg" alt="Profile Image">
+                <br>
+                <br>
+                <p><i><u>"Learning to write programs stretches your mind, and helps you think better".</u><br><br>Bill Gates</i></p>
+            </div>
+            
+            <div class="about_container">
+                <h2>About</h2>
+                <p>I'm a curious and driven aspiring software developer with a solid foundation in HTML, CSS, and Python. 
+                    I enjoy turning creative ideas into user-friendly, functional web experiences. 
+                    I’m especially motivated by the potential of technology to solve real-world problems. 
+                    I'm continuously learning, improving, and building with the goal of creating solutions that make a meaningful impact.
+                    <br>
+                    <br>
+                    <a href="#blog" style="color: #1e90ff;"><i>read more...</i></a>
+                </p>
+            </div>
+        </section>
+
+       <section id="languages">
+            <h2><b>Programming Languages</b></h2>
+            <ul class="language-graphics">
+                <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" />
+                HTML – For structuring web content
+                </li>
+                <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" />
+                CSS – For styling and layout design
+                </li>
+                <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" />
+                Python – For scripting, problem-solving, and backend development
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <ul class="education-list">
+                <li><i class="fas fa-graduation-cap"></i> <strong>Degree:</strong> Bachelor of Education (Building and civil technology)</li>
+                <li><i class="fas fa-university"></i> <strong>Institution:</strong> Moi University</li>
+                <li><i class="fas fa-calendar-alt"></i> <strong>Year:</strong> 2020 - 2024</li>
+                <li><i class="fas fa-laptop-code"></i> <strong>Relevant Coursework:</strong> Programming, Web Development, Educational Technology</li>
+            </ul>
+
+            <a href="files/YourCV.pdf" download class="cv-download">Download My CV (PDF)</a>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>I’m deeply excited by the ever-evolving world of technology—especially how it empowers people to build, solve, and connect. I enjoy exploring areas like web development, automation, and user experience design. My professional interests lie in creating clean, functional digital solutions and continuously expanding my skills to stay ahead in the tech space.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/portfolio-site" target="_blank">Personal Portfolio Website</a></h3>
+                <p>A responsive website built with HTML, CSS, and a bit of JavaScript to showcase my skills, resume, and contact info.</p>
+            </article>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/todo-app" target="_blank">To-Do App</a></h3>
+                <p>A simple to-do list app using HTML, CSS, and Python Flask to help users organize and track their daily tasks.</p>
+            </article>
+
+            <article>
+                <h3><a href="https://github.com/yourusername/weather-dashboard" target="_blank">Weather Dashboard</a></h3>
+                <p>An app that fetches live weather data using a public API and displays forecasts for any city input by the user.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+      </main>
+  </div>
+</body>
+</html>
